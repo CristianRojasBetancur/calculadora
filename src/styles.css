@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+.App {
+  font-family: Poppins;
+  text-align: center;
+}
+
+div .container {
+  background-color: #4d4d4d;
+  min-height: 70vh;
+  width: 50vh;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.textField {
+  background-color: #4d4d4d;
+  border-bottom: 1px solid #6b6b6b;
+  color: #fff;
+  text-align: right;
+  width: 100vh;
+  height: 50px;
+}
+
+.buttons-orange {
+  color: orange;
+  padding: 5px;
+  background-color: #4d4d4d;
+  border: none;
+}
+
+.circle {
+  padding: 10px 15px;
+  background-color: orange;
+  border-radius: 50%;
+  color: white;
+}
+
+.circle,
+.buttons-orange:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.buttons {
+  color: #fff;
+  padding: 10px;
+  background-color: #4d4d4d;
+  border: none;
+}
+
+.buttons:hover {
+  text-decoration: none;
+  color: #dadada;
+  cursor: pointer;
+  background-color: #6e6e6e;
+}
+
+.fila {
+  margin: 25px 0;
+}
+
+.fila1 {
+  margin-top: 10px;
+}
